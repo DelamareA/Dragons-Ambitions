@@ -1,0 +1,10 @@
+id 4
+type 2
+name MK-41
+hitpoint 99
+vulnerability 0.33
+can_launch 0
+can_launch 2
+can_launch 7
+can_launch 9
+can_launch 10

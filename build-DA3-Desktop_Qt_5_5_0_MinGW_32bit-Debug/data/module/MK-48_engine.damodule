@@ -1,0 +1,15 @@
+id 16
+type 1
+name Engine
+max_altitude 0
+min_altitude -1000
+cruise_altitude -50
+hitpoint 100
+consumption 10.0
+vulnerability 0.5
+max_speed 60.0
+min_speed 0.0
+rotation_speed 0.2
+acceleration 10
+deceleration 15
+ascendant_angle 0.1

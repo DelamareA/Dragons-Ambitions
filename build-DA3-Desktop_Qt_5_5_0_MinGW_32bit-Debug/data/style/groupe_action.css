@@ -1,0 +1,32 @@
+QCheckBox#groupe_action {
+    color: white;
+}
+
+QCheckBox#groupe_action::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+QCheckBox#groupe_action::indicator:unchecked {
+    image: url(data/style/checkbox/unchecked.png);
+}
+
+QCheckBox#groupe_action::indicator:unchecked:hover {
+    image: url(data/style/checkbox/unchecked_hover.png);
+}
+
+QCheckBox#groupe_action::indicator:unchecked:pressed {
+    image: url(data/style/checkbox/unchecked_hover.png);
+}
+
+QCheckBox#groupe_action::indicator:checked {
+    image: url(data/style/checkbox/checked.png);
+}
+
+QCheckBox#groupe_action::indicator:checked:hover {
+    image: url(data/style/checkbox/checked_hover.png);
+}
+
+QCheckBox#groupe_action::indicator:checked:pressed {
+    image: url(data/style/checkbox/checked_hover.png);
+}

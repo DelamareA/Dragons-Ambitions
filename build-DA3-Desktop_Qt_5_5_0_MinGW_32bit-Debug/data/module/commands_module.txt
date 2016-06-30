@@ -1,0 +1,89 @@
+List of 'commands' for the modules:
+x, y, z are integers ; a, b, c are real values (such a 0.5) and s is a string (/!\ a string can't contain spaces, put a * if you want to put a space in a string /!\)
+
+If you add a module, don't forget to increase the number of modules in 'global_index' and to add the new file in 'index'
+
+id x
+Set the id of the module to x (always the first command)
+
+can_launch x
+Indicate that the module can fire the object which id is x
+
+can_detect x
+Indicate that the module can detect units which type is x(0->bateau, 1->missile, 2->avion, 3->sub, 4->helico, 5->infanterie, 6->amphi, 7->batiment)
+
+type x
+Set the type of the module to x (0-> coque, 1->moteur, 2->lanceur, 3->reservoir, 4->radar, 5->personnel, 6->repair)
+
+hitpoint x
+Set the hp of the module (consider a scale from 1 to 4000)
+
+fuel x
+Set the maximum amount of fuel that the module can hold
+
+radar_range x y
+Set the radar range to detect enemy of type x (0->bateau, 1->missile, 2->avion, 3->sub, 4->helico, 5->infanterie, 6->amphi, 7->batiment) to y m
+
+sight x
+Set the 'sight' of the module (1 - 100)(used to detect enemy from a very short distance)
+
+radar_power x y
+Set the radar's power to detect enemy of type x to y (y is between 1 and 100)
+
+radar_processing x a
+Set the radar's processing value for enemies of type x (the real radar power used to detect enemies is the product of its power and processing values whereas only its power is used for enemy's passive radar, for a stealth radar, use a low radar_power and a high radar_processing)
+
+radar_passive x
+Set the power of the module passive radar to detect enemies (used to detect enemies which are using active radar) (x is between 0 and 100)
+
+name s
+Set the module's name to s
+
+vulnerability a
+Set the module's vulnerability to a (between 0 and 1)
+
+repair_object x
+Set how much repair to objects this module can perform each second
+
+The following commands are only available for motors :
+
+consumption a
+Set the consumption of the module to a 'unit of fuel' per second
+
+max_speed a
+Set the maximum speed to a m/s
+
+min_speed a
+Set the minimum speed to a m/s
+
+max_altitude a
+Set the maximum altitude to a m
+
+min_altitude a
+Set the minimum altitude to a m
+
+cruise_altitude a
+Set the cruise altitude to a (this means that a unit with this module will go to this altitude when launched)
+
+ascendant_angle a
+Set the maximum angle during climb (or a descent) to a (in radian)
+
+acceleration a
+Set the acceleration to a m/s^2
+
+deceleration a
+Set the deceleration to a m/s^2 (this is used when the unit stops but still has fuel)
+
+rotation_speed a
+Set the maximum rotation speed to a radian/s
+
+The following commands are only available for guidance modules :
+
+fail_probability a
+Set the probability of failing at each second of the flight (between 0 and 1, usually something like 0.01)
+
+miss_probability a
+Set the probability of failing when the missile reaches its target to a (between 0 and 1, usually something like 0.2)
+
+
+

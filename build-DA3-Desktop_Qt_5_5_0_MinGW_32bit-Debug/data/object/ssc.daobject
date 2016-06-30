@@ -1,0 +1,13 @@
+id 4
+type 6
+future_unit 10
+country 0
+time_reload 1
+size 10.0
+name SSC
+image ressource/object/F-35.png
+new_config assault
+add_config assault 6 1
+new_config landing
+add_config landing 5 1
+add_config landing 6 2

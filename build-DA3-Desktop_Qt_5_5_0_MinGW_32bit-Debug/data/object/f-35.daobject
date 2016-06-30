@@ -1,0 +1,12 @@
+id 1
+type 1
+future_unit 4
+country 0
+time_reload 1
+size 10.0
+name F-35C
+image ressource/object/F-35.png
+new_config attack
+add_config attack 0 2
+add_config attack 9 2
+add_config attack 10 2

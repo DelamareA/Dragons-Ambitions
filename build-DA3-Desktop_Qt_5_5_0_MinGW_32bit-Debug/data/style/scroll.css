@@ -1,0 +1,40 @@
+QScrollBar:vertical {
+    border: 0px solid black;
+    background: rgb(110, 180, 220);
+    width: 15px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    border: 1px solid rgb(80, 115, 130);
+    background-image: url(data/style/grip/1.png);
+    border-radius: 3px;
+    width:10px;
+}
+
+QScrollBar::add-line:vertical {
+    border: 0px solid grey;
+    background: black;
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    border: 0px solid grey;
+    background: black;
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar:left-arrow:vertical, QScrollBar::right-arrow:vertical {
+    border: 0px solid grey;
+    width: 0px;
+    height: 0px;
+    background: white;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}

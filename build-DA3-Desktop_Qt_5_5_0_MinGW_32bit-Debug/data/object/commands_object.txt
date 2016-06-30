@@ -1,0 +1,64 @@
+List of 'commands' for the objects:
+x, y, z are integers ; a, b, c are real values (such a 0.5) and s is a string (/!\ a string can't contain spaces, put a * if you want to put a space in a string /!\)
+
+If you add an object, don't forget to increase the number of objects in 'global_index' and to add the new file in 'index'
+
+id x
+Set the id of the object to x (always the first command)
+
+type x
+Set the type of the object to x (0->missile, 1->avion, 2->projectile, 3->amphi, 4->vehicule, 5->infanterie, 6->bato, 7->helico, 8->buoy)
+
+future_unit x
+Set the object's future unit to x (x being the id of the class, not used for projectiles)
+
+country x
+Set the object's country to x (0->USA, 1->CHINA)
+
+time_reload a
+Set the time between two launches of the object to a (in s)
+
+size a
+Set the object's size to a (not in real units, consider a scale from 0.001 to 100)
+
+name s
+Set the object's name to s
+
+image s
+Set the object's image to the file given is s (relative to the .exe, such as 'ressource/object/harpoon.png')
+
+can_hit x
+Indicate that the object can be fired to units which type is x (0->bateau, 1->missile, 2->avion, 3->sub, 4->helico, 5->infanterie, 6->amphi, 7->batiment) (only for missiles and projectiles)
+
+new_config s
+Create a new config, with s as a name, for when the object is launched (the name can't contain spaces, nor *)
+
+add_config s x y
+Add to the config named s, y objects of id x
+
+The following commands are only available for projectiles :
+
+explosion x
+Indicate whether the projectile is explosive (0->no explosion, 1->explosion, default 0)
+
+number_fired x
+Indicate how many rounds can be fired at the same time (usually 1, more for machine gun or ciws)
+
+precision a
+Set the precision to a (between 0 and 1)
+
+damage_zone a
+Set the zone of damage to a (in m)
+
+speed a
+Set the speed of the projectile to a (in m/s)
+
+range a
+Set the range of the projectile to a (in m) 
+
+warhead a
+Set the projectile warhead's to a (example values : 0.05 for a rifle's bullet, 500 for a shell)
+
+
+
+

@@ -1,0 +1,53 @@
+List of 'commands' for the classes:
+x, y, z are integers ; a, b, c are real values (such a 0.5) and s is a string (/!\ a string can't contain spaces, put a * if you want to put a space in a string /!\)
+
+If you add a class, don't forget to increase the number of classes in 'global_index' and to add the new file in 'index'
+
+id x
+Set the id of the class to x (always the first command)
+
+type x
+Set the type of the class to x (0->bateau, 1->missile, 2->avion, 3->sub, 4->helico, 5->infanterie, 6->amphi, 7->batiment, 8->buoy)
+
+country x
+Set the country of the class (0->USA, 1->CHINA)
+
+size x
+Set the size to x (between 0 and 100, not in real units)
+
+name s
+Set the name of the class to s
+
+image s
+Set the folder of the images of the class (such as "ressource/unit/arleigh_burke")
+
+fuel x
+Set the default amount of fuel the unit has when launched
+
+stealth x
+Set the stealth of the unit to x (between 0 and 100)
+
+module x
+Add a module of id x to the class
+
+warhead a
+Set the warhead of the class to a (only for missiles)
+
+friction a
+Set the friction of the class to a (used when unit is out of fuel, in m/s^2)
+
+noise a
+Set the noise of the class (between 0 and 1)
+
+cargo_ammo a
+Set the space of the ammunition storage of the class to a
+
+plane_hangar a
+Set the space of the plane hangar of the class to a
+
+helo_hangar a
+Set the space of the helo hangar of the class to a
+
+well_dock a
+Set the space of the well dock of the class to a (used for boats, infantry and amphibious vehicles)
+

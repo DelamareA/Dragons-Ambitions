@@ -1,0 +1,10 @@
+id 0
+type 0
+future_unit 2
+country 0
+time_reload 1
+size 1.0
+name Harpoon
+image ressource/object/harpoon.png
+can_hit 0
+asat

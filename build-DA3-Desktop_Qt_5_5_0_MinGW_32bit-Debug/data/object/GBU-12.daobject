@@ -1,0 +1,15 @@
+id 10
+type 2
+country 0
+time_reload 0.1
+size 1
+name GBU-12
+image ressource/object/F-35.png
+can_hit 0
+explosion 1
+number_fired 1
+precision 1
+damage_zone 10.0
+speed 1000.0
+range 400000.0
+warhead 10

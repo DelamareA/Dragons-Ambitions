@@ -1,0 +1,15 @@
+id 13
+type 8
+country 0
+size 2
+name Sonobuoy
+image ressource/unit/missile
+module 0
+fuel 0
+stealth 20
+friction 0.01
+noise 0.01
+cargo_ammo 0
+plane_hangar 0
+helo_hangar 0
+well_dock 0

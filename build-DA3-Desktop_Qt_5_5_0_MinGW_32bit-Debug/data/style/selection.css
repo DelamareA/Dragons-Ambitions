@@ -1,0 +1,23 @@
+QTabWidget::pane { /* The tab widget frame */
+    border: 2px solid rgb(90, 150, 180);
+    background: rgba(80, 115, 130, 200);
+}
+QTabWidget::tab-bar {
+    left: 0px; /* move to the right by 5px */
+}
+/* Style the tab using the tab sub-control. Note that
+    it reads QTabBar _not_ QTabWidget */
+QTabBar::tab {
+    background: rgba(80, 115, 130, 200);
+    border: 2px solid rgb(90, 150, 180);
+    border-bottom: 0px;
+    min-width: 8ex;
+    padding: 2px;
+}
+QTabBar::tab:hover {
+    background: rgb(90, 150, 180);
+}
+QTabBar::tab:selected {
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}

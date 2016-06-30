@@ -1,0 +1,10 @@
+id 8
+type 0
+future_unit 12
+country 0
+time_reload 1
+size 1.0
+name MK-48
+image ressource/object/harpoon.png
+can_hit 0
+can_hit 3

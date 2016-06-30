@@ -1,0 +1,12 @@
+QLineEdit#champ_action {
+    border: 2px solid gray;
+    border-radius: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    background: black;
+    color: white;
+    font-family: "Courier";
+    font-weight: bold;
+    selection-background-color: darkgray;
+}

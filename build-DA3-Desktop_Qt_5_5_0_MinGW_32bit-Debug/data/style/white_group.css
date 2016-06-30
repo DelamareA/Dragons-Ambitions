@@ -1,0 +1,7 @@
+QGroupBox#xxxxx {
+    color: white;
+}
+
+QGroupBox#xxxxx QLabel{
+    color: white;
+}

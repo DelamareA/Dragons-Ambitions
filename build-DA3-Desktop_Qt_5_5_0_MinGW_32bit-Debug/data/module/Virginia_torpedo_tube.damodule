@@ -1,0 +1,7 @@
+id 17
+type 2
+name Torpedo*tube
+hitpoint 99
+vulnerability 0.33
+can_launch 0
+can_launch 8
